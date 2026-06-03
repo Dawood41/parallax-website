@@ -3,55 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Parallax Website </title>
+    <title>NatureScape</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <section class="pimg1">
-        <div class="ptext">
-            <span class="textBg">
-                Parallax Website
-            </span>
-        </div>
-    </section>
-    <section class="section section-light">
-        <h2> Section One </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae pariatur rem ratione sed. Esse ipsum, odit quas inventore harum natus iste in minima perspiciatis voluptatum modi doloribus aliquam fuga! Eaque fuga voluptatibus in unde quisquam ducimus, repellat neque! Sed dolorum aperiam doloribus! Ducimus optio excepturi reiciendis non unde veniam dolorem quaerat velit, doloremque porro ex dolores tenetur blanditiis totam deleniti laudantium. Nisi libero nam quis iusto nulla laboriosam dolorem architecto temporibus, at soluta similique eius quam perspiciatis inventore saepe beatae velit. Placeat aliquid tempore ipsa sunt amet. Ad blanditiis dolor necessitatibus placeat deleniti repudiandae dolorum ex, eveniet totam vitae veritatis.
 
-        </p>
-    </section>
-    <section class="pimg2">
-        <div class="ptext">
-            <span class="textBg">
-                Explore Nature
-            </span>
-        </div>
-    </section>
-        <section class="section section-dark">
-        <h2> Section Two </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae pariatur rem ratione sed. Esse ipsum, odit quas inventore harum natus iste in minima perspiciatis voluptatum modi doloribus aliquam fuga! Eaque fuga voluptatibus in unde quisquam ducimus, repellat neque! Sed dolorum aperiam doloribus! Ducimus optio excepturi reiciendis non unde veniam dolorem quaerat velit, doloremque porro ex dolores tenetur blanditiis totam deleniti laudantium. Nisi libero nam quis iusto nulla laboriosam dolorem architecto temporibus, at soluta similique eius quam perspiciatis inventore saepe beatae velit. Placeat aliquid tempore ipsa sunt amet. Ad blanditiis dolor necessitatibus placeat deleniti repudiandae dolorum ex, eveniet totam vitae veritatis.
+    <!-- PROGRESS BAR -->
+    <div class="progress-bar"></div>
 
-        </p>
-    </section>
-    <section class="pimg3">
-        <div class="ptext">
-            <span class="textBg">
-                LOOK DEEP INTO NATURE
-            </span>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">🌿 NatureScape</div>
+        <ul class="nav-links">
+            <li><a href="#home" data-section="home">Home</a></li>
+            <li><a href="#nature" data-section="nature">Nature</a></li>
+            <li><a href="#explore" data-section="explore">Explore</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
-    </section>
-    <section class="section section-dark">
-        <h2> Section Three </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae pariatur rem ratione sed. Esse ipsum, odit quas inventore harum natus iste in minima perspiciatis voluptatum modi doloribus aliquam fuga! Eaque fuga voluptatibus in unde quisquam ducimus, repellat neque! Sed dolorum aperiam doloribus! Ducimus optio excepturi reiciendis non unde veniam dolorem quaerat velit, doloremque porro ex dolores tenetur blanditiis totam deleniti laudantium. Nisi libero nam quis iusto nulla laboriosam dolorem architecto temporibus, at soluta similique eius quam perspiciatis inventore saepe beatae velit. Placeat aliquid tempore ipsa sunt amet. Ad blanditiis dolor necessitatibus placeat deleniti repudiandae dolorum ex, eveniet totam vitae veritatis.
+    </nav>
 
-        </p>
-    </section>
-    <section class="pimg1">
+    <!-- HERO — MOUNTAINS -->
+    <section class="pimg1" id="home">
         <div class="ptext">
-            <span class="textBg">
-                Dawood Shah
-            </span>
+            <span class="textBg">NatureScape</span>
         </div>
     </section>
+
+    <section class="section section-light fade-in">
+        <h2>Summit Calling</h2>
+        <p>There's a reason we look up at mountains with awe. They remind us how small we are — and how capable. Every peak challenges you to breathe deeper, climb higher, and see farther than you ever have before. The summit isn't just a destination; it's a perspective shift.</p>
+        <a href="#nature" class="btn">Explore Forests →</a>
+    </section>
+
+    <!-- FORESTS -->
+    <section class="pimg2" id="nature">
+        <div class="ptext">
+            <span class="textBg">Explore Nature</span>
+        </div>
+    </section>
+
+    <section class="section section-dark fade-in">
+        <h2>Forest Whisper</h2>
+        <p>Step under the canopy and the world slows down. Sunlight filters through leaves older than memory. Moss covers stones that haven't moved in centuries. Forests don't rush — they grow, decay, and rebirth in complete silence. Walk gently. You're a guest here.</p>
+        <a href="#explore" class="btn">Dive Deeper →</a>
+    </section>
+
+    <!-- OCEAN -->
+    <section class="pimg3" id="explore">
+        <div class="ptext">
+            <span class="textBg">Look Deep Into Nature</span>
+        </div>
+    </section>
+
+    <section class="section section-dark fade-in">
+        <h2>Blue Abyss</h2>
+        <p>The ocean floor is Earth's final frontier — dark, crushing, and alive with creatures that glow like constellations. We've mapped Mars better than our own seabed. Every dive reveals something new: a species, a shipwreck, a reminder that mystery still exists.</p>
+        <a href="#home" class="btn">Return to Peaks ↑</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-left">
+            <h3>🌿 NatureScape</h3>
+            <p>Exploring the wild, one scroll at a time.</p>
+        </div>
+        <div class="footer-right">
+            <a href="https://github.com/Dawood41" target="_blank">GitHub</a>
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="https://dawood41.github.io/my-portfolio" target="_blank">Portfolio</a>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Dawood Shah. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP -->
+    <button class="back-to-top">↑</button>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
